@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <!-- Action se refiere a la acción que se realizara hacia donde se mandan los datos-->
+    <!-- Method metodo HTTP
+    GET por defecto pero nos lo muestra en el URL 
+    POST los datos no los muestra en el URL es para datos sensibles
+    viajan los datos hacia un lugar especifico de nuestra base de datos-->
+    <!-- input es la cajita para escribir -->
+    <!-- label e input van juntos -->
+    <!-- name recibe los datos -->
+    <!-- For de label debe de ir ligado con el name del input -->
+    <!-- type es el tipo de dato que podemos ingresar 
+    por ejemplo email, password, number, text, date(fechas) etc-->
+    <!-- label se cierra
+    input no se cierra poner / -->
+    <form action="#" method="POST">
+      <p>
+        <label for="name">Nombre: </label>
+        <input type="text" name="name" />
+      </p>
+      <p>
+        <label for="email">Correo: </label>
+        <input type="email" name="email" />
+      </p>
+      <p>
+        <label for="password">Contraseña: </label>
+        <input type="password" name="password" />
+      </p>
+      <!-- textarea da un cuadro para poder escribir -->
+      <p>
+        <!-- cols vertical, rows orizontal 
+            son para el tamaño del cuadro -->
+        <label for="publicar">Publicar: </label>
+        <textarea name="publicar" id="" cols="30" rows="10"></textarea>
+      </p>
+      <!-- Select sirve para seleccionar una opción -->
+      <p>
+        <label for="color">Color favorito: </label>
+        <select name="color" id="">
+          <!-- option Lista de lo que se necesite -->
+          <!-- Value es el valor que se envia al backend -->
+          <option value="1">Rojo</option>
+          <option value="2">Azul</option>
+          <option value="3">Verde</option>
+          <option value="4">Morado</option>
+          <option value="5">Negro</option>
+          <option value="6">Rosa</option>
+        </select>
+      </p>
+      <p>
+        <!-- Solo deja seleccionar un circulo
+            Es como de opción multiple -->
+        <label for="edad">Selecciona tú rango de edad:</label>
+        <label for=""> De 18 a 22</label>
+        <input type="radio" name="edad" />
+
+        <label for=""> De 23 a 30</label>
+        <input type="radio" name="edad" />
+
+        <label for=""> De 31 a 36</label>
+        <input type="radio" name="edad" />
+      </p>
+
+      <hr>
+<!-- Otra forma de hacerlo -->
+<p>
+    <label for="edad">Selecciona tú rango de edad:</label>
+    <p>
+    <input type="radio" name="edad" /> De 18 a 22
+    </p>
+    <p>
+        <input type="radio" name="edad" /> De 23 a 30
+    </p>
+    <p>
+        <input type="radio" name="edad" /> De 31 a 37
+    </p>
+    
+</p>
+      <p>
+          
+          <!-- <input type="submit" value="Guardar datos"> -->
+          <!-- Se pueden guardar iconos  -->
+          <button type="submit">Guardar datos</button>
+          
+      </p>
+    </form>
+  </body>
+</html>
