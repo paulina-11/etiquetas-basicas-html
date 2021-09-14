@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+        <form method="POST">
+            <p>
+                <label for="sexo">Indica tu sexo </label>
+                <label for="sexo"> Mujer </label>
+                <input type="radio" name="sexo" />
+                <label for="sexo"> Hombre </label>
+                <input type="radio" name="sexo" />
+                <label for="sexo">Niguno</label>
+                <input type="radio" name="sexo" />
+            </p>
+            <p>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" />
+            </p>
+            <p>
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" />
+            </p>
+            <p>
+                <label for="fecha">Fecha de Nacimiento: </label>
+                <input type="date" id="fecha" name="fecha" value="2018-07-22" min="1990-01-01" max="2021-12-31">
+            </p>
+            <p>
+                <label for="nacimiento">Lugar de Nacimiento: </label>
+                <input type="text" name="nacimiento" />
+            </p>
+
+            <p>
+                <button type="submit">Enviar</button>
+            </p>
+    </form>
+
+</body>
+
+</html>

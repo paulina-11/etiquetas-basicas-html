@@ -1,0 +1,45 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    background: darkcyan;
+    margin: 15px;
+    padding: 15px;
+    line-height: 150%;
+}
+h1{
+    font-size: 50px;
+    text-align: right;
+}
+
+.rojo{
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h2{
+    text-transform:uppercase;
+}
+
+
+
+p{
+    text-indent: 40px;
+}
+.orange{
+    color: orange;
+    font-weight: bold;
+}
+
+.orange1{
+    color: orange;
+}
+
+em{
+    color: rgb(44, 238, 44);
+    background: white;
+}
+
+.autor{
+ text-align: center;
+}
